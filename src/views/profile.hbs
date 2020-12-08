@@ -1,0 +1,36 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-12 mx-auto">
+            <div class="card text-center">
+                <div class="card-body">
+                    {{!-- Poner informacion de la empresa y poder editarla (RFC, Dirección, etc) --}}
+                    <h1>Genesis Computadoras</h1>
+                    <h5>(GCO091230PW4)</h5>
+                    <h4>Bienvenido {{user.fullname}}</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h1><i class="fas fa-users"></i>
+                    </h1>
+                    <h5>Empleados <span class="badge badge-success">{{empleados.total}}</span></h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mx-auto">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h1><i class="fas fa-file-invoice-dollar"></i></h1>
+                    <h5>Facturas <span class="badge badge-success">{{facturas.total}}</span></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
